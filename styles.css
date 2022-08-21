@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    width: 200px;
+    height: 200px;
+    margin: 120px auto;
+    border: 1px solid red;
+    border-radius: 4px;
+}
+
+.navbar__ul {
+    list-style-type: none;
+    line-height: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar__a {
+    text-decoration: none;
+    text-decoration-line: none;
+    color: black;
+}
+
+.main-container {
+    margin: 120px auto;
+    width: 350px;
+    height: 350px;
+    font-size: 18px;
+}
+
+.form__label {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 0.65em;
+    display: block;
+    margin-bottom: 8px;
+    color: hsl(278deg, 68%, 11%);
+    font-weight: bold;
+}
+
+.form__input {
+    display: block;
+    width: 100%;
+    height: 30px;
+}
+
+.color {
+    width: 70%;
+}
+
+.button {
+    background-color: hsl(278deg, 68%, 11%);
+    color: hsl(270deg, 3%, 87%);
+    width: 100%;
+    height: 50px;
+    border-radius: 8px;
+    font-size: 1em;
+    letter-spacing: 1px;
+}
+
+.button::hover {
+    cursor: pointer;
+}
+
+.return {
+    color: hsl(270deg, 3%, 87%);
+    width: 100px;
+    height: 50px;
+    border-radius: 8px;
+    font-size: 1em;
+    letter-spacing: 1px;
+}
+
+.return::hover {
+    cursor: pointer;
+}
+
+h1 {
+    text-align: center;
+}
+
+fieldset {
+    /* border: 1px solid red; */
+    margin: 0 auto 0 0;
+}
